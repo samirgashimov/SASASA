@@ -1,0 +1,175 @@
+/*======================================================================================================================*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+/*======================================================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;1,9..40,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;1,9..40,1000&display=swap');
+body{
+	font-family: 'DM Sans', sans-serif;
+    background-color: #191919;
+	color: #FFF;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 25px ;
+}
+.list{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+.navig{
+    color: #fff;
+	font-size: 17px;
+}
+.navig{
+font-family: 'DM Sans', sans-serif;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+padding: 0px 50px 0px 0px ;
+transition: all .3s ease;
+}
+
+.navig:hover{
+    color: #118DA8;
+}
+.logo{
+    padding: 0px 0px 0px 50px ; 
+}
+.main__container{
+	margin: 0px 20px;
+}
+.container{
+	margin: 0px 50px;
+}
+.image{
+	border-radius: 12px;
+}
+.blue__luch{
+	position: relative;
+	bottom: 820px;
+	left: 50px;
+}
+.text{
+    color: #FFF;
+	min-width:526px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+}
+.main{
+	display: flex;
+	align-items: center;
+	gap: 250px;
+}
+.line{
+    position: absolute; z-index: -1;
+	width: 145px;
+}
+.blue__luch{
+	position: absolute;
+	left: -23px;
+	top: -22px;
+}
+.kishlak{
+	position: relative;
+}
+.font{
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
+}
+.list__icon{
+	display: flex;
+	gap: 17px;
+}
+.list__listen{
+	margin: 74px 0px 0px 0px;
+	padding: 0px 22px;
+}
+.chikatilo{
+	padding: 0px 0px 16px 0px;
+	color: #FFF;
+font-family: 'DM Sans' , sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 160% */
+}
+.episodes{
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 79.2px;
+letter-spacing: 2.88px;
+}
+.pizdalizzv{
+margin: 100px 50px 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.all__episodes{
+padding: 12px 15px 12px 20px;
+}
+.special{
+	background-color: #118DA8;
+	width: 178px;
+border-radius: 6px;
+}
